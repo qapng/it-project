@@ -1,0 +1,25 @@
+.container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100px;
+  width: 200px;
+  transform: translateY(-50px);
+}
+
+.alertBox {
+  height: 50%;
+  animation: top-to-bottom 0.5s ease-in forwards;
+  text-align: center;
+  line-height: 10px;
+  border-radius: 10px;
+}
+
+@keyframes top-to-bottom {
+  0% {
+    transform: translateY(-100);
+  }
+  100% {
+    transform: translateY(100%);
+  }
+}

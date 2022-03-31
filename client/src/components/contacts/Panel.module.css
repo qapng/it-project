@@ -1,0 +1,46 @@
+.btn {
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.btn-contact {
+  padding: 8px 40px;
+  display: 'inline';
+}
+.btn-primary {
+  background-color: rgb(87, 151, 93);
+  color: rgb(70, 65, 65);
+  font-size: 10vw;
+  min-height: 7rem;
+  width: 70%;
+  border: none;
+  border-radius: 10px;
+}
+
+.btn-primary:hover {
+  background: rgb(102, 103, 105);
+  color: rgb(43, 40, 40);
+  transition: all 0.3s ease-out;
+  cursor: pointer;
+}
+.btn-name {
+  font-size: 22px;
+}
+.btn-left {
+  width: 100px;
+  white-space: nowrap;
+  margin-left: 10%;
+  float: left;
+  text-overflow: ellipsis;
+}
+.btn-right {
+  width: 200px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  float: right;
+  text-align: left;
+  margin-right: 10%;
+}
+.btn-info {
+  font-size: 18px;
+}

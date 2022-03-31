@@ -1,0 +1,49 @@
+.searchButton {
+  background-color: #e6e6e6;
+  color: #4d4d4d;
+  font-size: 17px;
+}
+.searchbar {
+  margin-left: 1.25rem;
+  margin-top: 0rem;
+}
+.searchChoice {
+  width: 200px;
+  padding: 5px 15px 5px 20px;
+  margin: 8px 0px;
+  box-sizing: border-box;
+  outline: none;
+  border-radius: 8px;
+  background-color: #d9d9d9;
+  border: none;
+  color : grey;
+  cursor : pointer;
+}
+
+.fa-search {
+  background :#d9d9d9;
+  color : white;
+  cursor: text;
+  font-size: 1rem;
+  margin-top: 1rem;
+  border : none;
+  padding: 12px 12px 18px 12px;
+  margin: 8px 10px;
+  box-sizing: border-box;
+  border-radius: 8px;
+
+}
+
+
+.searchbar input {
+  width: 650x;
+  padding: 12px 30px 12px 20px;
+  margin: 8px 0px;
+  box-sizing: border-box;
+  outline: none;
+  border-radius: 8px;
+  background-color: #d9d9d9;
+  border: none;
+}
+
+

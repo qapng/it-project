@@ -1,0 +1,141 @@
+.navbar {
+  background: transparent;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  font-size: 1.2 rem;
+  position: relative;
+  top: 0;
+  z-index: 999;
+  margin-bottom: 50px;
+}
+.navbar-container {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  max-width: 1500px;
+}
+.navbar-logo {
+  justify-self: start;
+  margin-left: -4px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  margin-top: -1rem;
+}
+
+.fa-user-circle,
+.fa-bars,
+.fa-times {
+  color: rgb(83, 111, 148);
+  margin-left: 1rem;
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+.menu {
+  border-radius: 8px;
+  overflow-y: scroll;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 500;
+  background: transparent;
+  left: 0;
+  bottom: 0;
+  height: 85vh;
+  width: 0;
+  overflow: hidden;
+  max-width: 310px;
+  z-index: 0;
+}
+
+.menu-icon {
+  margin-top: -1rem;
+}
+.menu-icon :hover,
+.navbar-logo :hover {
+  color: rgb(119, 163, 221);
+}
+
+.menu.show-menu {
+  background: rgb(121, 162, 216);
+  width: 100%;
+  line-height: 10%;
+}
+
+.menu.show-menu :hover {
+  color: #504e4e;
+  background: rgb(103, 136, 180);
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.menu li:first-child {
+  margin-top: 1mm;
+}
+
+.nav-links {
+  color: #424141;
+  display: inline-flex;
+  align-items: left;
+  text-decoration: none;
+  padding: 1rem;
+  height: 100%;
+}
+
+.header {
+  padding-left: 1.3rem;
+  cursor: pointer;
+}
+
+.nav-item {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+
+.addButton {
+  cursor: pointer;
+  font-size: 2rem;
+  margin-right:2rem;
+  float:right;
+  margin-top: -2.5rem;
+  justify-content: right;
+  align-items: right;
+  flex: 6;
+  position:absolute;
+}
+.addButton :hover {
+  color: rgb(119, 163, 221);
+}
+.fa-plus-circle {
+  color: rgb(83, 111, 148);
+  background-color: #d9d9d9;
+  font-size: 3rem;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+.input-icons i {
+  position: absolute;
+}
+
+.input-icons {
+  width: 100%;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.position {
+  display: flex;
+  float:left;
+}
+
+.divider {
+  border-bottom: 5px solid #e6e6e6;
+  padding-bottom: 3px;
+}

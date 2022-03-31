@@ -1,0 +1,23 @@
+.contactcard {
+    margin: 20px;
+    display: inline;
+}
+.cardstyle {
+    max-width: 50%; 
+    min-height: 8rem;
+    padding: 8px 15px;
+    margin: 20px;
+    background-color: rgb(125, 162, 211);
+    color: #444343;
+    border-radius: 15px;
+}
+.cardtitle {
+    font-weight: bold;
+    font-size: 20px;
+}
+.fa-phone,
+.fa-envelope {
+  color: #444343;
+  font-size: 1.5rem;
+  cursor: pointer;
+}

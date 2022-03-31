@@ -1,0 +1,16 @@
+export const API_URL = 'https://davinci-server.herokuapp.com/api';
+export const LOCAL_STORAGE_TOKEN_NAME = 'davinci-app';
+
+export const CONTACTS_LOADED_SUCCESS = 'CONTACTS_LOADED_SUCCESS';
+export const CONTACTS_LOADED_FAIL = 'CONTACTS_LOADED_FAIL';
+export const ADD_CONTACT = 'ADD_CONTACT';
+export const DELETE_CONTACT = 'DELETE_CONTACT';
+export const UPDATE_CONTACT = 'UPDATE_CONTACT';
+export const FIND_CONTACT = 'FIND_CONTACT';
+
+export const CATEGORIES_LOADED_SUCCESS = 'CATEGORIES_LOADED_SUCCESS';
+export const CATEGORIES_LOADED_FAIL = 'CATEGORIES_LOADED_FAIL';
+export const ADD_CATEGORY = 'ADD_CATEGORY';
+export const DELETE_CATEGORY = 'DELETE_CATEGORY';
+export const UPDATE_CATEGORY = 'UPDATE_CATEGORY';
+export const FIND_CATEGORY = 'FIND_CATEGORY';
